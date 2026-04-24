@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Gupta | Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #0f172a;
+            color: #fff;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 50px;
+            background: #020617;
+        }
+
+        header h1 {
+            color: #38bdf8;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+        }
+
+        .hero span {
+            color: #38bdf8;
+        }
+
+        .hero p {
+            margin-top: 15px;
+            font-size: 18px;
+            color: #94a3b8;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #38bdf8;
+            color: #000;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .skills, .projects {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 10px;
+            width: 250px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #020617;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ayush</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Hi, I'm <span>Ayush Gupta</span></h2>
+    <p>DevOps Engineer | Cloud Enthusiast | Automation Lover</p>
+    <a href="#" class="btn">Download Resume</a>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="card">AWS</div>
+        <div class="card">Docker</div>
+        <div class="card">Kubernetes</div>
+        <div class="card">Python</div>
+        <div class="card">Linux</div>
+        <div class="card">CI/CD</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+        <div class="card">
+            <h3>CI/CD Pipeline</h3>
+            <p>Automated deployment using Jenkins & Docker</p>
+        </div>
+        <div class="card">
+            <h3>Cloud Monitoring</h3>
+            <p>Implemented monitoring using CloudWatch</p>
+        </div>
+        <div class="card">
+            <h3>Kubernetes App</h3>
+            <p>Deployed scalable app on Kubernetes</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: ayush@example.com</p>
+    <p>LinkedIn: linkedin.com/in/yourprofile</p>
+</section>
+
+<footer>
+    <p>© 2026 Ayush Gupta | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
+
